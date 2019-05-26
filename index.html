@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Porto Folio</title>
+   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+   <link rel="stylesheet" href="css/style.css"> 
+   <script>
+      // Add scrollspy to <body>
+$('body').scrollspy({ target: ".navbar", offset: 50 });
+
+// Add smooth scrolling to all links inside a navbar
+$("#myNavbar a").on('click', function (event) {
+
+  // Prevent default anchor click behavior
+  event.preventDefault();
+
+  // Store hash (#)
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area (the speed of the animation)
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top },
+  800, function () {
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+  });
+});
+
+
+      
+    function validate() {
+      var email = document.getElementById('isiform-email').value;
+      var password = document.getElementById('isiform-password').value;
+        if(email == "admin@web.ini" && password == "password" ) {
+          var notif = alert("Benar sekali silahkan masuk");
+          return notif;
+        } else {
+          var wnotif = alert("Email atau Password salah");
+          return wnotif;
+        }
+      };
+      
+
+
+    </script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid navbarye">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CodingLife</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#AboutMe">About Me</a></li>
+                        <li><a href="#IsiForm">Isi Form</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    <section class="default" id="Home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    
+                    <h1 class="text-default animated  bounceIn">WEB DESIGNER 
+                        <br><span>&amp</span><br>
+                        WEB DEVELOPPER
+                            </h1>
+                    <div class="bg">
+                        <img src="img/at-get-new-school.jpg" class="img-circle img-responsive" style="max-height: 300px"/>
+                    </div>
+                                <hr />
+                    <div class="buttons text-center">
+                                <button class="btn btn-primary">Linkedin</button>
+                                <button class="btn btn-primary">GitHub</button>
+                                <button class="btn btn-primary">Twitter</button>
+                                <button class="btn btn-primary">Facebook</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class ="default" id="AboutMe">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <h1>ABOUT ME</h1>
+                    <br>
+                    <br>
+                    <p>
+                        Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium existimans factum aut cogitatum, insontium caedibus fecit victoriam luctuosam.
+                        <br>
+                        <br> Hae duae provinciae bello quondam piratico catervis mixtae praedonum a Servilio pro consule missae sub iugum factae sunt vectigales. et hae quidem regiones velut in prominenti terrarum lingua positae ob orbe eoo monte Amano disparantur.
+                        <br>
+                        <br> Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum. ire enim ipse compellebatur ad militem, quem exagitabat inopia simul et feritas, et alioqui coalito more in ordinarias dignitates asperum semper et saevum, ut satisfaceret
+                        atque monstraret, quam ob causam annonae convectio sit impedita.
+                        <br>
+                        <br> Illud autem non dubitatur quod cum esset aliquando virtutum omnium domicilium Roma, ingenuos advenas plerique nobilium, ut Homerici bacarum suavitate Lotophagi, humanitatis multiformibus officiis retentabant.
+                        <br>
+                        <br> Dum apud Persas, ut supra narravimus, perfidia regis motus agitat insperatos, et in eois tractibus bella rediviva consurgunt, anno sexto decimo et eo diutius post Nepotiani exitium, saeviens per urbem aeternam urebat cuncta Bellona, ex primordiis
+                        minimis ad clades excita luctuosas, quas obliterasset utinam iuge silentium! ne forte paria quandoque temptentur, plus exemplis generalibus nocitura quam delictis.
+                        <br>
+                        <br>
+                    </p>
+                    <br>
+                    <br>
+                    <h2 id="fix">MY SKILLS</h2>
+                    <br>
+                    <br>
+                    <div class="container">
+                        <ul class="list-group">
+                            <li class="list-group-item"><span class="glyphicon glyphicon-ok" style="float: right"></span> JavaScript, JQuery &amp Angular.Js</li>
+                            <li class="list-group-item"><span class="glyphicon glyphicon-ok" style="float: right"></span> CSS3 &amp HTML5 -- BootStrap, Material Design</li>
+                            <li class="list-group-item"><span class="glyphicon glyphicon-ok" style="float: right"></span> PHP &amp AJAX, Asp.net</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="default" id="IsiForm">
+        <h1>Login or Register</h1>
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+            
+                        <h2 id="img">Isi Form</h2>
+                        <img class="img-rounded img-responsive" src="https://res.cloudinary.com/dmdgogi0s/image/upload/v1455184923/http___tempero.fr__uwgu6f.png" />
+                    <p id="GOD">
+                      <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="isiform-email" name="email" placeholder="Email" type="email" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="isiform-password" name="password" placeholder="Password" type="password" required>
+                            </div>
+                          </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <button class="btn pull-right" id="login" onclick="validate();" type="submit">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="default" id="Contact">
+        <div class="container">
+            <h3 class="text-center">Contact</h3>
+            <div class="row test">
+                <div class="col-md-4">
+                    <p><span class="glyphicon glyphicon-map-marker"></span>Paris, FRANCE</p>
+                    <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    
+    <footer class="container-fluid bg-4 text-center">
+        <p id="footer-text" class="text-center">	&copy All Right Reserved <a href="#">André Gomes</a></p>
+    </footer>
+  
+
+    <!-- <script src="js/main.js"></script> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <a href="#" class="ignielToTop"></a>
+</body>
+</html>

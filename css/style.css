@@ -1,0 +1,276 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	width: 100%;
+	/* overflow: hidden; */
+}
+#myNavbar
+{
+    float: right;
+    color: #fff;
+
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+
+.navbarye {
+    background: #073B4C;
+    color: #06D6A0;
+}
+
+
+
+
+/******************
+****TEXT STYLE*****
+******************/
+
+h1, h2 
+{
+	font-size: 58px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+span {
+	font-size: 45px
+}
+
+#footer-text {
+	margin-top: 65px;
+	color: #368BD3;
+}
+
+hr {
+	margin-top: 70px;
+}
+
+a {
+	text-decoration: none !important;
+}
+.glyphicon
+{
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+#GOD
+{
+	margin-top: 70px;
+	text-align: justify;
+	right: 50px;
+	margin-left: 290px;
+	min-width: 400px !important;
+}
+p
+{
+	text-align: justify;
+}
+
+/******************
+******SECTION******
+******************/
+
+.default 
+{
+	height: 100%;
+  background-attachment: fixed;
+}
+
+#Home {
+	padding-top: 50px;
+	color: #fff;
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+#AboutMe {
+	padding-top: 50px;
+	background-color: #fff;
+	height: 100%;
+	padding-bottom: 150px;
+}
+
+#IsiForm {
+	padding-top: 50px;
+	background-color: #eee;
+	height: 100%;
+	padding-bottom: 300px;
+}
+
+#Contact {
+	padding-top: 50px;
+	background-color: #fff;
+	height: 100%;
+}
+
+
+/******************
+******FOOTER*******
+******************/
+
+footer {
+	height: 150px;
+	background-color: #073B4C;
+}
+
+
+/******************
+*******IMAGE*******
+******************/
+
+img {
+	margin: 0 auto;
+}
+.img-rounded
+{
+	float: left;
+	padding-top: 70px;
+    height: 470px;
+    border: 3px solid grey;
+}
+.img-rounded:hover
+{
+	height: 480px;
+}
+#img
+{
+	float: left;
+	font-size: 20px;
+	position: absolute;
+}
+/******************
+****RESPONSIVE*****
+******************/
+
+@media (max-width: 33.9em) 
+{
+	h1, h2 
+	{
+		font-size: 28px;
+		text-align: center;
+		margin-top: 60px;
+	}
+	span 
+	{
+		font-size: 25px;
+	}
+	#fix
+	{
+		margin-top: 30px !important;
+	}
+	#GOD
+	{
+		display: inline-block;
+		margin-left: 0px;
+	}
+	.img-rounded
+	{
+		float: none;
+        padding-top: 30px;
+        border: 3px solid grey;
+	}
+	#img
+	{
+		float: none;
+		position: relative;
+	}
+}
+
+@media (max-width: 47.9em) 
+{
+	h1, h2 {
+		font-size: 28px;
+		text-align: center;
+		margin-top: 60px;
+	}
+	span {
+		font-size: 25px;
+	}
+	#fix
+	{
+		margin-top: 30px !important;
+	}
+	#GOD
+	{
+		display: inline-block;
+		margin-left: 0px;
+	}
+	.img-rounded
+	{
+        border: 3px solid grey;
+		float: none;
+		padding-top: 30px;
+	}
+	#img
+	{
+		float: none;
+		position: relative;
+	}
+}
+
+
+/******************
+********MAP********
+******************/
+
+#googleMap 
+{
+    width: 100%; /* Span the entire width of the screen */
+    height: 400px; /* Set the height to 400 pixels */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); /* Change the color of the map to black and white */
+	margin-top: 100px;
+
+}
+
+/******************
+******BUTTON*******
+******************/
+
+  .btn {
+      padding: 10px 20px;
+      background-color: #368BD3;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff;
+      color: #000;
+  }
+  .buttons
+  {
+      padding-bottom: 150px;
+		  margin-top: 150px;
+  }
+.pull-right{
+	margin-top: 20px;
+}
+
+/* Back to Top Pure CSS by igniel.com */
+html {scroll-behavior:smooth;}
+.ignielToTop {width:50px; height:50px; position:fixed; bottom:50px; right: 50px; z-index:99; cursor:pointer; border-radius:100px; transition:all .5s; background:#06D6A0 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+.ignielToTop:hover {background:#1d2129 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;}
+ .bg {
+     background: url('../img/bg.jpg');
+     width:100%;
+  /* height:580px; */
+   /* background-image:url('http://www.myorderdesk.com/Providers/206190/Files/31/full_width_image_1.jpg'); */
+background-position: center center;
+background-attachment:fixed;
+background-repeat: no-repeat;
+background-size: 100% 100%; 
+background-size:cover;
+-webkit-transition: background-image 0.4s;
+-moz-transition: background-image 0.4s;
+-ms-transition: background-image 0.4s;
+-o-transition: background-image 0.4s;
+transition: background-image 0.4s;
+overflow: hidden;
+-webkit-font-smoothing: subpixel-antialiased;
+ }
